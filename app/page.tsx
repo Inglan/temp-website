@@ -1,6 +1,8 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 export default function Home() {
   return (
