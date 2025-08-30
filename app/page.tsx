@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="text-4xl">
           <span className="text-xl">Hi, I'm</span>
           <br />
-          Ingo Wolf
+          <span className="text-4xl text-primary">Ingo Wolf</span>
         </h1>
         I build websites, webapps, and random stuff
       </main>
