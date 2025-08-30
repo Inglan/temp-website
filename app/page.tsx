@@ -11,7 +11,7 @@ export default function Home() {
           <br />
           <span className="text-4xl text-primary font-bold">Ingo Wolf</span>
         </h1>
-        I build websites, webapps, and random stuff
+        I build websites, webapps, and other random stuff
         <div className="flex flex-row gap-2 flex-wrap min-w-full">
           <Button variant="secondary" asChild>
             <Link href="https://github.com/Inglan" target="_blank">
