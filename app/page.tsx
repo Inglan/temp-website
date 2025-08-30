@@ -14,13 +14,18 @@ export default function Home() {
         I build websites, webapps, and random stuff
         <div className="flex flex-row gap-2 flex-wrap min-w-full">
           <Button variant="secondary" asChild>
-            <Link href="https://github.com/Inglan">Github</Link>
+            <Link href="https://github.com/Inglan" target="_blank">
+              Github
+            </Link>
           </Button>
           <Button variant="secondary" asChild>
             <Link href="mailto:me@ingo.au">Email</Link>
           </Button>
           <Button variant="secondary" asChild>
-            <Link href="https://signal.me/#eu/aON_wvkns7bfeU-UAj_09B1Yym8WVC2QIWWV8rIhYZzPc2xGLUtBeLWMc9LJoWNB">
+            <Link
+              href="https://signal.me/#eu/aON_wvkns7bfeU-UAj_09B1Yym8WVC2QIWWV8rIhYZzPc2xGLUtBeLWMc9LJoWNB"
+              target="_blank"
+            >
               Signal
             </Link>
           </Button>
