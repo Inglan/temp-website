@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,6 +12,19 @@ export default function Home() {
           <span className="text-4xl text-primary">Ingo Wolf</span>
         </h1>
         I build websites, webapps, and random stuff
+        <div className="flex flex-row gap-2 flex-wrap min-w-full">
+          <Button variant="secondary" asChild>
+            <Link href="https://github.com/Inglan">Github</Link>
+          </Button>
+          <Button variant="secondary" asChild>
+            <Link href="mailto:me@ingo.au">Email</Link>
+          </Button>
+          <Button variant="secondary" asChild>
+            <Link href="https://signal.me/#eu/aON_wvkns7bfeU-UAj_09B1Yym8WVC2QIWWV8rIhYZzPc2xGLUtBeLWMc9LJoWNB">
+              Signal
+            </Link>
+          </Button>
+        </div>
       </main>
     </div>
   );
