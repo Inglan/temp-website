@@ -9,6 +9,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ingo's Site",
+  description: "Hi, I'm Ingo, an Australian web developer"
 };
 
 export default function RootLayout({
