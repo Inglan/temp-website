@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { Building, Building2, Earth, Mail } from "lucide-react";
+import { Building, Earth, Mail } from "lucide-react";
 
 export default function Home() {
   return (
